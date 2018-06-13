@@ -1,0 +1,30 @@
+.hamburguesa {
+  width: 44px;
+  height: 44px;
+  background-color: $color-cerulean;
+  background-image:url(../images/ico-menu.svg);
+  background-repeat:no-repeat;
+  background-position: center;
+  border-style: none;
+  position: fixed;
+  z-index: 1;
+  margin-top:0%;
+  margin-left:0%
+}
+.boton-go {
+  width: 76px;
+  height: 45px;
+  border-radius: 22.5px;
+  border: solid 2px $color-orange;
+  background-color: $color-white;
+  color: $color-orange;
+}
+
+.reasons {
+  width: 184px;
+  height: 45px;
+  border-radius: 22.5px;
+  background-color: $color-orange;
+  border-style: none;
+  color: $color-white;
+}

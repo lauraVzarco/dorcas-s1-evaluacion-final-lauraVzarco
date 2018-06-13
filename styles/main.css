@@ -1,3 +1,69 @@
-@charset "UTF-8";/* colores principales de la página*//* colores letras */
+@charset "UTF-8";/* colores principales de la página*//* colores letras */.hamburguesa {
+  width: 44px;
+  height: 44px;
+  background-color: #0271bc;
+  background-image: url(../images/ico-menu.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-style: none;
+  position: fixed;
+  z-index: 1;
+  margin-top: 0%;
+  margin-left: 0%;
+}
+
+.boton-go {
+  width: 76px;
+  height: 45px;
+  border-radius: 22.5px;
+  border: solid 2px #f26002;
+  background-color: #ffffff;
+  color: #f26002;
+}
+
+.reasons {
+  width: 184px;
+  height: 45px;
+  border-radius: 22.5px;
+  background-color: #f26002;
+  border-style: none;
+  color: #ffffff;
+}
+
+.titulo {
+  margin: 0px;
+}
+
+.botonabajo {
+  height: 45px;
+  width: 45px;
+  background-color: #ffffff;
+  background-image: url(../images/ico-scroll-down.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 22.5px;
+}
+
+.hero {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.botonarriba {
+  width: 45px;
+  height: 45px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 22.5px;
+}
+
+body {
+  margin: 0;
+}
 
 /*# sourceMappingURL=main.css.map */

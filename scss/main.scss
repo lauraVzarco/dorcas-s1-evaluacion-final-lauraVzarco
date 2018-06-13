@@ -1,1 +1,10 @@
 @import 'core/variables';
+@import 'components/buttons';
+@import 'layout/header';
+@import 'components/hero';
+@import 'layout/footer';
+
+
+body {
+  margin: 0;
+}
