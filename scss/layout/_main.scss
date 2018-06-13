@@ -1,8 +1,31 @@
 body {
   margin: 0;
+  width: 100vw;
+  height: 100vh;
 }
 
-.reasons-purchase
-{
+.reasons-purchase {
   background-color: $color-blueback;
+}
+
+.insomnia-tips {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.mini-insomnia {
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.insomnia {
+  width: 290px;
+  height: 60px;
+  margin: none;
+}
+
+.para-insomnia {
+  width: 290px;
+  height: 120px;
+  margin-right: 0;
 }
