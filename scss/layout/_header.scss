@@ -1,12 +1,26 @@
-.titulo {
-  margin: 0px;
+
+.header {
+  position: relative;
 }
+
+.titulo {
+  width: 290px;
+  height: 110px;
+  text-align: center;
+  transform: translateY(284px);
+  margin-top: 0;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 0;
+  align-content: center;
+}
+
 .botonabajo {
   height: 45px;
   width: 45px;
   background-color: $color-white;
-  background-image:url(../images/ico-scroll-down.svg);
-  background-repeat:no-repeat;
+  background-image: url(../images/ico-scroll-down.svg);
+  background-repeat: no-repeat;
   background-position: center;
   border-radius: 22.5px;
 }
