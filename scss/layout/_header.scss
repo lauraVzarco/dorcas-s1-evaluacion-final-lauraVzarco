@@ -1,18 +1,22 @@
 
-.header {
-  position: relative;
+.header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .titulo {
   width: 290px;
   height: 110px;
   text-align: center;
-  transform: translateY(284px);
-  margin-top: 0;
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-bottom: 0;
+  margin-bottom: 10px;
+  margin-top: 284px;
   align-content: center;
+}
+
+.textoheader-peque {
+  margin-bottom: 45px;
 }
 
 .botonabajo {

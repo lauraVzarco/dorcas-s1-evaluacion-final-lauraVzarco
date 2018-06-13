@@ -61,8 +61,8 @@
   border-style: none;
   position: fixed;
   z-index: 1;
-  margin-top: 0%;
-  margin-left: 0%;
+  margin-top: 0;
+  margin-left: 0;
 }
 
 .boton-go {
@@ -79,6 +79,13 @@
   margin-bottom: 45px;
 }
 
+.boton-go:hover {
+  -webkit-transition: color ease 1s, border-color ease 1s;
+  transition: color ease 1s, border-color ease 1s;
+  color: #0271bc;
+  border-color: #0271bc;
+}
+
 .reasons {
   width: 184px;
   height: 45px;
@@ -88,24 +95,43 @@
   color: #fff;
   font-size: 20px;
   font-weight: bold;
+  margin: 0 auto 60px;
 }
 
-.header {
-  position: relative;
+.reasons:hover {
+  -webkit-transition: background-color ease 1s;
+  transition: background-color ease 1s;
+  background-color: #0271bc;
+}
+
+.header-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .titulo {
   width: 290px;
   height: 110px;
   text-align: center;
-  -webkit-transform: translateY(284px);
-  transform: translateY(284px);
-  margin-top: 0;
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-bottom: 0;
+  margin-bottom: 10px;
+  margin-top: 284px;
   -ms-flex-line-pack: center;
   align-content: center;
+}
+
+.textoheader-peque {
+  margin-bottom: 45px;
 }
 
 .botonabajo {
@@ -118,7 +144,7 @@
   border-radius: 22.5px;
 }
 
-.header {
+.header-text {
   width: 100vw;
   height: 100vh;
   background-image: url(../images/cover.jpg);
@@ -133,10 +159,6 @@ body {
   height: 100vh;
 }
 
-.reasons-purchase {
-  background-color: #eff9ff;
-}
-
 .insomnia-tips {
   padding-left: 15px;
   padding-right: 15px;
@@ -148,28 +170,66 @@ body {
 }
 
 .insomnia {
-  width: 290px;
-  height: 60px;
   margin: none;
 }
 
 .para-insomnia {
-  width: 290px;
-  height: 120px;
   margin-right: 0;
+}
+
+.purchase {
+  margin-bottom: 45px;
+}
+
+.title-reasons {
+  margin-top: 0;
+}
+
+.para-reasons {
+  margin-bottom: 45px;
+}
+
+.reasons-purchase {
+  background-color: #eff9ff;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding: 0 70px;
 }
 
 .footer {
   background-color: #304268;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
 }
 
 .botonarriba {
   width: 45px;
   height: 45px;
   background-color: #fff;
+  background-image: url(../images/ico-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center;
   -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   border-radius: 22.5px;
+  position: relative;
+  top: -22.5px;
+}
+
+.footer-elements {
+  margin-bottom: 30px;
 }
 
 /*# sourceMappingURL=main.css.map */

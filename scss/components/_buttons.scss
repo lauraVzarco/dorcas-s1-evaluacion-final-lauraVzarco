@@ -8,8 +8,8 @@
   border-style: none;
   position: fixed;
   z-index: 1;
-  margin-top: 0%;
-  margin-left: 0%;
+  margin-top: 0;
+  margin-left: 0;
 }
 
 .boton-go {
@@ -26,6 +26,12 @@
   margin-bottom: 45px;
 }
 
+.boton-go:hover {
+  transition: color ease 1s, border-color ease 1s;
+  color: $color-cerulean;
+  border-color: $color-cerulean;
+}
+
 .reasons {
   width: 184px;
   height: 45px;
@@ -35,4 +41,10 @@
   color: $color-white;
   font-size: 20px;
   font-weight: bold;
+  margin: 0 auto 60px;
+}
+
+.reasons:hover {
+  transition: background-color ease 1s;
+  background-color: $color-cerulean;
 }
