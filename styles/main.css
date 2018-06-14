@@ -195,10 +195,29 @@ body {
 }
 
 .container {
+  list-style: none;
+}
+
+.reason-1 {
+  padding: 0;
+}
+
+.reason-2 {
+  padding: 0;
+}
+
+.reason-3 {
+  padding: 0;
+}
+
+.container {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  padding: 0 70px;
+  padding: 0;
 }
 
 .footer {
@@ -296,10 +315,13 @@ body {
   }
 
   .container {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     grid-gap: 27.7px;
-    padding: 0 70px;
+    padding: 0;
   }
 }
 

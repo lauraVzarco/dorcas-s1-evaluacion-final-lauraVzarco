@@ -1,15 +1,17 @@
 .container {
+  align-items: center;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  padding: 0 70px;
+  padding: 0;
 }
 
 @media all and (min-width: 768px) {
   .container {
+    align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     grid-gap: 27.7px;
-    padding: 0 70px;
+    padding: 0;
   }
 }
