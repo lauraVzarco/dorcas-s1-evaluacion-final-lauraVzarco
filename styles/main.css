@@ -231,6 +231,17 @@ body {
   top: -22.5px;
 }
 
+.botonarriba:hover {
+  -webkit-animation-name: gira-gira;
+  animation-name: gira-gira;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+  -webkit-animation-fill-mode: backwards;
+  animation-fill-mode: backwards;
+}
+
 .footer-elements {
   margin-bottom: 30px;
 }
@@ -266,7 +277,7 @@ body {
   }
 
   .textoheader-peque {
-    margin-bottom: 120px;
+    margin-bottom: 30px;
   }
 
   .botonabajo {
@@ -287,6 +298,7 @@ body {
   .container {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
+    grid-gap: 27.7px;
     padding: 0 70px;
   }
 }
@@ -311,6 +323,10 @@ body {
     font-size: 32px;
   }
 
+  .textoheader-peque {
+    margin-bottom: 88px;
+  }
+
   .insomnia-tips {
     padding-left: 275px;
     padding-right: 275px;
@@ -320,6 +336,30 @@ body {
     padding-left: 81.2px;
     padding-right: 85px;
     padding-top: 60px;
+  }
+}
+
+@-webkit-keyframes gira-gira {
+  from {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+
+  to {
+    -webkit-transform: rotate(3600deg);
+    transform: rotate(3600deg);
+  }
+}
+
+@keyframes gira-gira {
+  from {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+
+  to {
+    -webkit-transform: rotate(3600deg);
+    transform: rotate(3600deg);
   }
 }
 

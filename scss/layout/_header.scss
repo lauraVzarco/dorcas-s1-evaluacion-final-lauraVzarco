@@ -34,7 +34,13 @@
 
 @media (min-width: 768px) {
   .textoheader-peque {
-    margin-bottom: 120px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .textoheader-peque {
+    margin-bottom: 88px;
   }
 }
 

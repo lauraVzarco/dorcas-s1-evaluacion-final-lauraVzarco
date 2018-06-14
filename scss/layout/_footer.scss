@@ -20,6 +20,23 @@
   top: -22.5px;
 }
 
+.botonarriba:hover {
+  animation-name: gira-gira;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes gira-gira {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(3600deg);
+  }
+}
+
 .footer-elements {
   margin-bottom: 30px;
 }
