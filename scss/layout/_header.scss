@@ -14,14 +14,14 @@
   align-content: center;
 }
 
-@media (min-width: 768px) {
+@media all and (min-width: 768px) {
   .titulo {
     width: 690px;
     height: 212px;
   }
 }
 
-@media (min-width: 1200px) {
+@media all and (min-width: 1200px) {
   .titulo {
     width: 730px;
     height: 264px;
@@ -32,13 +32,13 @@
   margin-bottom: 45px;
 }
 
-@media (min-width: 768px) {
+@media all and (min-width: 768px) {
   .textoheader-peque {
     margin-bottom: 30px;
   }
 }
 
-@media (min-width: 1280px) {
+@media all and (min-width: 1280px) {
   .textoheader-peque {
     margin-bottom: 88px;
   }
@@ -55,7 +55,7 @@
   margin-bottom: 45px;
 }
 
-@media (min-width: 768px) {
+@media all and (min-width: 768px) {
   .botonabajo {
     margin-bottom: 13px;
   }

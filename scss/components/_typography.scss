@@ -5,13 +5,13 @@
   font-weight: bold;
 }
 
-@media (min-width: 768px) {
+@media all and (min-width: 768px) {
   .titulo {
     font-size: $font-size-title;
   }
 }
 
-@media (min-width: 1280px) {
+@media all and (min-width: 1280px) {
   .titulo {
     font-size: $font-size-huge;
   }
@@ -23,13 +23,13 @@
   font-size: $font-size-s;
 }
 
-@media (min-width: 768px) {
+@media all and (min-width: 768px) {
   .textoheader-peque {
     font-size: $font-size-l;
   }
 }
 
-@media (min-width: 1280px) {
+@media all and (min-width: 1280px) {
   .textoheader-peque {
     font-size: $font-size-textlg;
   }
@@ -47,13 +47,13 @@
   font-size: $font-size-l;
 }
 
-@media (min-width: 768px) {
+@media all and (min-width: 768px) {
   .title-main {
     font-size: $font-size-minititle;
   }
 }
 
-@media (min-width: 1280px) {
+@media all and (min-width: 1280px) {
   .title-main {
     font-size: $font-size-textlg;
   }
@@ -65,7 +65,7 @@
   font-size: $font-size-m;
 }
 
-@media (min-width: 768px) {
+@media all and (min-width: 768px) {
   .para-insomnia {
     font-size: $font-size-textm;
   }
@@ -77,7 +77,7 @@
   font-size: $font-size-m;
 }
 
-@media (min-width: 768px) {
+@media all and (min-width: 768px) {
   .title-reasons {
     font-size: $font-size-l;
   }
@@ -89,7 +89,7 @@
   font-size: $font-size-m;
 }
 
-@media (min-width: 768px) {
+@media all and (min-width: 768px) {
   .para-reasons {
     font-size: $font-size-textm;
   }

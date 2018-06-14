@@ -236,8 +236,8 @@ body {
   animation-name: gira-gira;
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
   -webkit-animation-fill-mode: backwards;
   animation-fill-mode: backwards;
 }
@@ -246,7 +246,7 @@ body {
   margin-bottom: 30px;
 }
 
-@media (min-width: 768px) {
+@media all and (min-width: 768px) {
   .titulo {
     font-size: 80px;
   }
@@ -303,14 +303,14 @@ body {
   }
 }
 
-@media (min-width: 1200px) {
+@media all and (min-width: 1200px) {
   .titulo {
     width: 730px;
     height: 264px;
   }
 }
 
-@media (min-width: 1280px) {
+@media all and (min-width: 1280px) {
   .titulo {
     font-size: 100px;
   }
