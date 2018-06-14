@@ -19,7 +19,7 @@
   border: solid 2px $color-orange;
   background-color: $color-white;
   color: $color-orange;
-  font-size: 20px;
+  font-size: $font-size-textm;
   font-family: $font-roboto;
   line-height: 2.25;
   font-weight: bold;
@@ -39,7 +39,7 @@
   background-color: $color-orange;
   border-style: none;
   color: $color-white;
-  font-size: 20px;
+  font-size: $font-size-textm;
   font-weight: bold;
   margin: 0 auto 60px;
 }

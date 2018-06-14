@@ -5,16 +5,40 @@
   font-weight: bold;
 }
 
+@media (min-width: 768px) {
+  .titulo {
+    font-size: $font-size-title;
+  }
+}
+
+@media (min-width: 1280px) {
+  .titulo {
+    font-size: $font-size-huge;
+  }
+}
+
 .textoheader-peque {
   color: $color-white;
   font-family: $font-roboto;
   font-size: $font-size-s;
 }
 
+@media (min-width: 768px) {
+  .textoheader-peque {
+    font-size: $font-size-l;
+  }
+}
+
+@media (min-width: 1280px) {
+  .textoheader-peque {
+    font-size: $font-size-textlg;
+  }
+}
+
 .mini-insomnia {
   color: $color-light-blue;
   font-family: $font-roboto;
-  font-size: 15px;
+  font-size: $font-size-xs;
 }
 
 .title-main {
@@ -23,10 +47,28 @@
   font-size: $font-size-l;
 }
 
+@media (min-width: 768px) {
+  .title-main {
+    font-size: $font-size-minititle;
+  }
+}
+
+@media (min-width: 1280px) {
+  .title-main {
+    font-size: $font-size-textlg;
+  }
+}
+
 .para-insomnia {
   color: $color-parrafos;
   font-family: $font-roboto;
   font-size: $font-size-m;
+}
+
+@media (min-width: 768px) {
+  .para-insomnia {
+    font-size: $font-size-textm;
+  }
 }
 
 .title-reasons {
@@ -35,10 +77,22 @@
   font-size: $font-size-m;
 }
 
+@media (min-width: 768px) {
+  .title-reasons {
+    font-size: $font-size-l;
+  }
+}
+
 .para-reasons {
   color: $color-black;
   font-family: $font-roboto;
   font-size: $font-size-m;
+}
+
+@media (min-width: 768px) {
+  .para-reasons {
+    font-size: $font-size-textm;
+  }
 }
 
 .footer-elements {

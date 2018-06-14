@@ -9,6 +9,20 @@ body {
   padding-right: 15px;
 }
 
+@media (min-width: 768px) {
+  .insomnia-tips {
+    padding-left: 39px;
+    padding-right: 39px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .insomnia-tips {
+    padding-left: 275px;
+    padding-right: 275px;
+  }
+}
+
 .mini-insomnia {
   margin-top: 30px;
   margin-bottom: 0;
@@ -20,6 +34,25 @@ body {
 
 .para-insomnia {
   margin-right: 0;
+}
+
+.reasons-purchase {
+  background-color: $color-blueback;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .reasons-purchase {
+    padding-left: 35.7px;
+    padding-right: 40px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .reasons-purchase {
+    padding-left: 81.2px;
+    padding-right: 85px;
+  }
 }
 
 .purchase {

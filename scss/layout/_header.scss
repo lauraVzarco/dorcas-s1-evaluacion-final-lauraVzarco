@@ -6,6 +6,7 @@
   justify-content: center;
 }
 
+
 .titulo {
   width: 290px;
   height: 110px;
@@ -15,8 +16,28 @@
   align-content: center;
 }
 
+@media (min-width: 768px) {
+  .titulo {
+    width: 690px;
+    height: 212px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .titulo {
+    width: 730px;
+    height: 264px;
+  }
+}
+
 .textoheader-peque {
   margin-bottom: 45px;
+}
+
+@media (min-width: 768px) {
+  .textoheader-peque {
+    margin-bottom: 120px;
+  }
 }
 
 .botonabajo {

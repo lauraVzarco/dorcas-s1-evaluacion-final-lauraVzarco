@@ -1,4 +1,4 @@
-@charset "UTF-8";/* colores principales de la página *//* colores letras *//* fuentes de la página *//* tamaños de fuentes */.titulo {
+@charset "UTF-8";/* colores principales de la página *//* colores letras *//* fuentes de la página *//* tamaños de fuentes versión movil *//* Tamaños de fuentes versión tablet *//* Tamaños fuentes versión desktop */.titulo {
   color: #fff;
   font-family: "Roboto Slab", serif;
   font-size: 42px;
@@ -14,7 +14,7 @@
 .mini-insomnia {
   color: #8ccbea;
   font-family: "Roboto", sans-serif;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .title-main {
@@ -177,6 +177,11 @@ body {
   margin-right: 0;
 }
 
+.reasons-purchase {
+  background-color: #eff9ff;
+  text-align: center;
+}
+
 .purchase {
   margin-bottom: 45px;
 }
@@ -189,9 +194,7 @@ body {
   margin-bottom: 45px;
 }
 
-.reasons-purchase {
-  background-color: #eff9ff;
-  text-align: center;
+.container {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -230,6 +233,88 @@ body {
 
 .footer-elements {
   margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  .titulo {
+    font-size: 80px;
+  }
+
+  .textoheader-peque {
+    font-size: 24px;
+  }
+
+  .title-main {
+    font-size: 26px;
+  }
+
+  .para-insomnia {
+    font-size: 20px;
+  }
+
+  .title-reasons {
+    font-size: 24px;
+  }
+
+  .para-reasons {
+    font-size: 20px;
+  }
+
+  .titulo {
+    width: 690px;
+    height: 212px;
+  }
+
+  .textoheader-peque {
+    margin-bottom: 120px;
+  }
+
+  .insomnia-tips {
+    padding-left: 39px;
+    padding-right: 39px;
+  }
+
+  .reasons-purchase {
+    padding-left: 35.7px;
+    padding-right: 40px;
+  }
+
+  .container {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 0 70px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .titulo {
+    width: 730px;
+    height: 264px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .titulo {
+    font-size: 100px;
+  }
+
+  .textoheader-peque {
+    font-size: 32px;
+  }
+
+  .title-main {
+    font-size: 32px;
+  }
+
+  .insomnia-tips {
+    padding-left: 275px;
+    padding-right: 275px;
+  }
+
+  .reasons-purchase {
+    padding-left: 81.2px;
+    padding-right: 85px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

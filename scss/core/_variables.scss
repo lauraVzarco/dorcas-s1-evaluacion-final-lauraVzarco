@@ -15,9 +15,18 @@ $color-black: #000;
 $font-roboto: 'Roboto', sans-serif;
 $font-slab: 'Roboto Slab', serif;
 
-/* tamaños de fuentes */
+/* tamaños de fuentes versión movil */
 $font-size-xs: 14px;
 $font-size-s: 16px;
 $font-size-m: 18px;
 $font-size-l: 24px;
 $font-size-xl: 42px;
+
+/* Tamaños de fuentes versión tablet */
+$font-size-title: 80px;
+$font-size-minititle: 26px;
+$font-size-textm: 20px;
+
+/* Tamaños fuentes versión desktop */
+$font-size-huge: 100px;
+$font-size-textlg: 32px;
