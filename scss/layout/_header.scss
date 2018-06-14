@@ -3,16 +3,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
 }
-
 
 .titulo {
   width: 290px;
   height: 110px;
   text-align: center;
   margin-bottom: 10px;
-  margin-top: 284px;
   align-content: center;
 }
 
@@ -48,4 +46,11 @@
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 22.5px;
+  margin-bottom: 45px;
+}
+
+@media (min-width: 768px) {
+  .botonabajo {
+    margin-bottom: 13px;
+  }
 }
