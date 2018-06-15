@@ -11,6 +11,10 @@
   font-size: 16px;
 }
 
+.textev {
+  color: #fff;
+}
+
 .mini-insomnia {
   color: #8ccbea;
   font-family: "Roboto", sans-serif;
@@ -165,6 +169,20 @@ body {
   padding-right: 15px;
 }
 
+.section-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: #f26002;
+}
+
 .mini-insomnia {
   margin-top: 30px;
   margin-bottom: 0;
@@ -307,6 +325,10 @@ body {
   .insomnia-tips {
     padding-left: 39px;
     padding-right: 39px;
+  }
+
+  .section-1 {
+    background-color: #8ccbea;
   }
 
   .reasons-purchase {
